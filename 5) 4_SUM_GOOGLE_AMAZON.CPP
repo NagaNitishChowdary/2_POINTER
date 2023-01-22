@@ -44,7 +44,7 @@ vector<vector<int> > fourSum(vector<int> &arr, int k) {
                     // PROCESSING THE DUPLICATES OF NUMBER 3 
                     while(front_pointer < back_pointer && arr[front_pointer] == var1) front_pointer++ ;
                     // PROCESSING THE DUPLICATES OF NUMBER 4 
-                    while(front_pointer < back_pointer && arr[back_pointer] == var1) back_pointer-- ;
+                    while(front_pointer < back_pointer && arr[back_pointer] == var2) back_pointer-- ;
                 }
             }
             // PROCESSING THE DUPLICATES OF THE NUMBER 2 
